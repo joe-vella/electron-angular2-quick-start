@@ -24,10 +24,21 @@
 
   <body>
 
-    <div class="container">
-      <my-app>Loading...</my-app>
-    </div>
-  </body>
+ <h1>Hello World!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using: <br/>
+    node <script>document.write(process.versions.node)</script><br/>
+    Chromium <script>document.write(process.versions.chrome)</script><br/>
+    Electron <script>document.write(process.versions.electron)</script><br/>
+    and Angular 2.0.0-rc.1! 
+    
+  <br>
+  <br>
+    
+  <div class="container">
+    <my-app>Loading...</my-app>
+  </div>
+</body>
 
   <script>
     // You can also require other files to run in this process
