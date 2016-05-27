@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var image_upload_component_1 = require('./image-upload/image-upload.component');
 var AppComponent = (function () {
     function AppComponent() {
         console.log('AppComponent');
@@ -17,7 +18,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             templateUrl: "app/app.component.html",
-            directives: [],
+            directives: [image_upload_component_1.ImageUploadComponent],
             providers: []
         }), 
         __metadata('design:paramtypes', [])

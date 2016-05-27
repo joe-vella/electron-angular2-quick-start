@@ -1,10 +1,11 @@
 
 import { Component }	from '@angular/core';
+import { ImageUploadComponent } from './image-upload/image-upload.component';
 
 @Component({
     selector: 'my-app',
     templateUrl: "app/app.component.html",
-    directives: [],
+    directives: [ImageUploadComponent],
 	providers: []
 })
 
