@@ -1,3 +1,8 @@
+
+Note: I started with the example project from electron. Most of this readme is from that project. I modified the clone path to this project. 
+I added angular 2.0.0-rc.1 with the help of an article here: https://auth0.com/blog/2015/12/15/create-a-desktop-app-with-angular-2-and-electron/
+This article used angular2. I updated the code for @angular rc-1. I am using Visual Studio Code.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see an Electron in action.**
@@ -20,9 +25,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/joe-vella/electron-angular2-quick-start
 # Go into the repository
-cd electron-quick-start
+cd electron-angular2-quick-start
 # Install dependencies and run the app
 npm install && npm start
 ```
